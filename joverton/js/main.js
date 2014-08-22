@@ -21,7 +21,11 @@ $(document).ready(function () {
     }
   });
 //image preload
-  $(['../img/how_solar_works.jpg']).preload();
+  if (document.images) {
+        img1 = new Image();
+
+        img1.src = "../img/how_solar_works.jpg";
+      };
 });
 
 //show how it works slide
@@ -58,9 +62,3 @@ $("#message-form").submit(function(e) {
 //custom submit function shold be added
 });
 
-//preload images
-$.fn.preload = function() {
-    this.each(function(){
-        $('<img/>')[0].src = this;
-    });
-};
