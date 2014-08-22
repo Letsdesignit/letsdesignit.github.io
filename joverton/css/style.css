@@ -12,10 +12,9 @@ body{
 	/*min-height: 600px;
 	max-height: 800px;*/
 	background:url("../img/header_bg_1920.jpg") no-repeat 0px;
-/*	-webkit-background-size: cover;
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-*/    
 	background-size: cover;
     position:relative;    
     min-width:1280px;
@@ -100,9 +99,16 @@ body{
 	color:orange;	
 
 }
+.content-section a{
+	color:orange;	
+}
 .content-section a:hover{
 	text-decoration:none;
 }
+.content-section a:visited{
+	color:#d80;	
+}
+
 .content-section img{
 	margin-bottom:20px;
 }
@@ -214,11 +220,11 @@ button, #btn-submit{
 }
 
 .how-it-works{
-	box-shadow: 1px 0px #0071bc, 0px 1px #0071bc,
-              2px 1px #0071bc, 1px 2px #0071bc,
-              3px 2px #0071bc, 2px 3px #0071bc,
-              4px 3px #0071bc, 3px 4px #0071bc,
-              5px 4px #0071bc, 4px 5px #0071bc;
+	box-shadow: 1px 0px #740, 0px 1px #740,
+              2px 1px #740, 1px 2px #740,
+              3px 2px #740, 2px 3px #740,
+              4px 3px #740, 3px 4px #740,
+              5px 4px #740, 4px 5px #740;
 }
 .how-it-works:hover{
 	background: #f8a300;
@@ -226,10 +232,10 @@ button, #btn-submit{
     -o-transform: translate(1px, 1px);
     -moz-transform: translate(1px, 1px);
     transform: translate(1px, 1px);
-    box-shadow: 1px 0px #0071bc, 0px 1px #0071bc,
-              2px 1px #0071bc, 1px 2px #0071bc,
-              3px 2px #0071bc, 2px 3px #0071bc,
-              4px 3px #0071bc, 3px 4px #0071bc;
+    box-shadow: 1px 0px #740, 0px 1px #740,
+              2px 1px #740, 1px 2px #740,
+              3px 2px #740, 2px 3px #740,
+              4px 3px #740, 3px 4px #740;
 }
 .how-it-works:active{
 	background: #e99d00;
@@ -237,25 +243,25 @@ button, #btn-submit{
     -o-transform: translate(3px, 3px);
     -moz-transform: translate(3px, 3px);    
     transform: translate(3px, 3px);
-    box-shadow: 1px 0px #0071bc, 0px 1px #0071bc,
-              2px 1px #0071bc, 1px 2px #0071bc;
+    box-shadow: 1px 0px #740, 0px 1px #740,
+              2px 1px #740, 1px 2px #740;
 }
 #btn-submit{
-	box-shadow: 1px 0px #fff, 0px 1px #fff,
-              2px 1px #fff, 1px 2px #fff,
-              3px 2px #fff, 2px 3px #fff,
-              4px 3px #fff, 3px 4px #fff,
-              5px 4px #fff, 4px 5px #fff;
+	box-shadow: 1px 0px #740, 0px 1px #740,
+              2px 1px #740, 1px 2px #740,
+              3px 2px #740, 2px 3px #740,
+              4px 3px #740, 3px 4px #740,
+              5px 4px #740, 4px 5px #740;
 }
 #btn-submit:hover:enabled{
 	background: #f8a300;
     -webkit-transform: translate(1px, 1px);
     -o-transform: translate(1px, 1px);
     -moz-transform: translate(1px, 1px);
-    box-shadow: 1px 0px #fff, 0px 1px #fff,
-              2px 1px #fff, 1px 2px #fff,
-              3px 2px #fff, 2px 3px #fff,
-              4px 3px #fff, 3px 4px #fff;
+    box-shadow: 1px 0px #740, 0px 1px #740,
+              2px 1px #740, 1px 2px #740,
+              3px 2px #740, 2px 3px #740,
+              4px 3px #740, 3px 4px #740;
 }
 #btn-submit:active:enabled{
 	background: #e99d00;
@@ -263,8 +269,8 @@ button, #btn-submit{
     -o-transform: translate(3px, 3px);
     -moz-transform: translate(3px, 3px); 
    	transform: translate(3px, 3px);
-    box-shadow: 1px 0px #fff, 0px 1px #fff,
-    			2px 1px #fff, 1px 2px #fff;
+    box-shadow: 1px 0px #740, 0px 1px #740,
+    			2px 1px #740, 1px 2px #740;
 }
 .how-it-works-img{
 	background:url("../img/how_solar_works.jpg") 0 0;
