@@ -24,7 +24,7 @@ $(document).ready(function () {
   if (document.images) {
         img1 = new Image();
 
-        img1.src = "../img/how_solar_works.jpg";
+        img1.src = "img/how_solar_works.jpg";
       };
 });
 
